@@ -7,6 +7,14 @@
         <element id="directory" name="classes">
           <element id="module-output" name="BasicWebsite" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/derbytools.jar" />
+          <element id="directory" name="norse">
+            <element id="dir-copy" path="$PROJECT_DIR$/lib/norse" />
+          </element>
+          <element id="file-copy" path="$PROJECT_DIR$/lib/derby.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/derbyshared.jar" />
+        </element>
       </element>
     </root>
   </artifact>
