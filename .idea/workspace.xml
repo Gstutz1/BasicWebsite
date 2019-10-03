@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="353176f6-0206-45c1-b91a-98f1a1e1cec8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicWebsite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/ListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/SearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/applicationContext">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="204">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="e#772#786#0" expanded="true" />
                 <element signature="e#825#837#0" expanded="true" />
@@ -175,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570066453535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570066600383" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -304,7 +299,7 @@
       <workItem from="1569435445818" duration="482000" />
       <workItem from="1570053354131" duration="5417000" />
       <workItem from="1570059567540" duration="11000" />
-      <workItem from="1570059617753" duration="6828000" />
+      <workItem from="1570059617753" duration="6975000" />
     </task>
     <task id="LOCAL-00001" summary="Migrated to IntelliJ">
       <created>1568228660485</created>
@@ -334,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568827977510</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added xml configuration">
+      <created>1570066519537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570066519537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26945000" />
+    <option name="totallyTimeSpent" value="27092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -387,7 +389,8 @@
     <MESSAGE value="Migrated to IntelliJ" />
     <MESSAGE value="Embedded database" />
     <MESSAGE value="Added servlets connected to database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added servlets connected to database" />
+    <MESSAGE value="Added xml configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added xml configuration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/FigureEdit.html">
@@ -530,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationContext">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="e#772#786#0" expanded="true" />
             <element signature="e#825#837#0" expanded="true" />
