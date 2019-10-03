@@ -1,3 +1,5 @@
+package jdbc;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet(name = "ListServlet", urlPatterns = "/list")
+@WebServlet(name = "jdbc.ListServlet", urlPatterns = "/list")
 public class ListServlet extends HttpServlet {
     private final String PATH = "/WEB-INF/lib/norse";
     private final String USER = "gabe";
@@ -44,22 +46,26 @@ public class ListServlet extends HttpServlet {
 
             response.getWriter().print(html.toString());
 
-        } catch (SQLException | ClassNotFoundException ex) {
+        }
+        catch (SQLException | ClassNotFoundException ex) {
             response.getWriter().print(ex.getMessage());
             ex.printStackTrace();
-        } finally {
+        }
+        finally {
             try {
                 if (rset != null) {
                     rset.close();
                 }
-            } catch (SQLException e) {
+            }
+            catch (SQLException e) {
                 e.printStackTrace();
             }
 
             if (stmt != null) {
                 try {
                     stmt.close();
-                } catch (SQLException e) {
+                }
+                catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
@@ -67,7 +73,8 @@ public class ListServlet extends HttpServlet {
             if (conn != null) {
                 try {
                     conn.close();
-                } catch (SQLException e) {
+                }
+                catch (SQLException e) {
                     e.printStackTrace();
                 }
             }

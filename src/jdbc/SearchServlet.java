@@ -1,3 +1,5 @@
+package jdbc;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet(name = "SearchServlet", urlPatterns = "/search")
+@WebServlet(name = "jdbc.SearchServlet", urlPatterns = "/search")
 public class SearchServlet extends HttpServlet {
     private final String PATH = "/WEB-INF/lib/norse";
     private final String USER = "gabe";
@@ -64,28 +66,33 @@ public class SearchServlet extends HttpServlet {
 
             response.getWriter().print(output.toString());
 
-        } catch (SQLException | ClassNotFoundException e) {
+        }
+        catch (SQLException | ClassNotFoundException e) {
             response.getWriter().print(e.getMessage());
             e.printStackTrace();
-        } finally {
+        }
+        finally {
             if (rset != null) {
                 try {
                     rset.close();
-                } catch (SQLException e) {
+                }
+                catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
             if (pstmt != null) {
                 try {
                     pstmt.close();
-                } catch (SQLException e) {
+                }
+                catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
             if (conn != null) {
                 try {
                     conn.close();
-                } catch (SQLException e) {
+                }
+                catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
