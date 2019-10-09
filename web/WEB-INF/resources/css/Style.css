@@ -1,0 +1,109 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    background-image: url("../img/Fenrir.png");
+    background-size: contain;
+    color: white;
+    font-size: 30px;
+    margin: auto auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.navigation {
+    margin: auto auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    border: 1px solid #e7e7e7;
+    border-right: 1px solid #bbb;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: #dddddd;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover, .active, .selected {
+    background-color: grey;
+    border: grey;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.category {
+    border: medium solid #e7e7e7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #ecf0f1;
+    color: black;
+}
+
+.category a {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+.category-list {
+    width: 90%;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.paragraph-header {
+    border-bottom: 1px solid black;
+}
+
+.figure-info {
+    width: 90%;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.page-img {
+    margin: auto;
+    width: 35%;
+    height: 500px;
+}
+
+#edit {
+    width: 125px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#save {
+    width: 125px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Load properties file: npc.properties -->
+    <context:property-placeholder location="classpath:norse.properties"/>
+
+    <!-- Define your beans here -->
+    <bean id="odinOrigin" class="springxml.beans.Section">
+        <property name="id" value="1"/>
+        <property name="header" value="${db.header}"/>
+        <property name="body" value="${db.body}"/>
+    </bean>
+
+    <bean id="verification" class="springxml.services.DataVerificationPassed"/>
+
+    <bean id="odin" class="springxml.beans.Figure">
+        <property name="name" value="${db.name}"/>
+        <property name="info" value="${db.info}"/>
+        <property name="dataVerification" ref="verification"/>
+        <property name="sections">
+            <list>
+                <ref bean="odinOrigin"/>
+            </list>
+        </property>
+    </bean>
+</beans>
