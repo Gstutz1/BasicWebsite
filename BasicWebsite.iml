@@ -19,6 +19,12 @@
         </fileset>
       </configuration>
     </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -56,6 +62,7 @@
     </orderEntry>
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.24" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.22" level="application_server_libraries" />
+    <orderEntry type="library" name="Hibernate 5.4.5-5.4.5" level="project" />
   </component>
 </module>
