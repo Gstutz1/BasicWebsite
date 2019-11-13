@@ -9,6 +9,7 @@
     <list default="true" id="353176f6-0206-45c1-b91a-98f1a1e1cec8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasicWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicWebsite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/log/log1.dat" afterDir="false" />
@@ -25,46 +26,35 @@
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c200.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c211.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c221.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c230.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c31.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c400.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c41.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c411.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c421.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c5b0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c5c1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c5d0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c5e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c5f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c5f0.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c601.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c601.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c611.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c611.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c621.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c621.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c601.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c611.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c621.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c71.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c81.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c90.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/ca1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/cb1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/norse/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/cf0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d490.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d4a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d4b0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d4c1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d4d0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d4e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d4f0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d501.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d511.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d521.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d530.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d541.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d550.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d561.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d570.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d581.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d591.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/d5a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/HibernateApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/HibernateApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/entity/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/entity/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/entity/FigureSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/entity/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicWebsite/hibernate/entity/Section.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Figure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/FigureSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Section.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,24 +83,6 @@
         <item name="norse" type="feb32156:DbDataSourceImpl" />
         <item name="GABE: schema" type="12aa88c4:DerbyImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="norse" type="feb32156:DbDataSourceImpl" />
-        <item name="GABE: schema" type="12aa88c4:DerbyImplModel$Schema" />
-        <item name="FIGURE: table" type="7a557cd6:DerbyImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="norse" type="feb32156:DbDataSourceImpl" />
-        <item name="GABE: schema" type="12aa88c4:DerbyImplModel$Schema" />
-        <item name="FIGURE_SECTION: table" type="7a557cd6:DerbyImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="norse" type="feb32156:DbDataSourceImpl" />
-        <item name="GABE: schema" type="12aa88c4:DerbyImplModel$Schema" />
-        <item name="SECTION: table" type="7a557cd6:DerbyImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -133,6 +105,12 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="140" />
+    <option name="y" value="30" />
+    <option name="width" value="1680" />
+    <option name="height" value="950" />
+  </component>
   <component name="ProjectId" id="1RyufyneXC7CozA8rewLrv8LtMn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -142,15 +120,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570746046769" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/derbytools.jar" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573079920060" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jdk-12.0.2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -175,7 +153,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.HibernateApp">
-    <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="MAIN_CLASS_NAME" value="hibernate.HibernateApp" />
       <module name="BasicWebsite" />
       <extension name="coverage">
@@ -267,13 +246,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HibernateApp" />
       <item itemvalue="Application.SpringApp" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
-      <item itemvalue="Application.HibernateApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HibernateApp" />
         <item itemvalue="Application.SpringApp" />
       </list>
     </recent_temporary>
@@ -282,7 +260,17 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@27efc3a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@27efc3a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5247ed53" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -311,6 +299,18 @@
       <workItem from="1570747822884" duration="4000" />
       <workItem from="1571262863725" duration="510000" />
       <workItem from="1572459863139" duration="10842000" />
+      <workItem from="1573079954985" duration="560000" />
+      <workItem from="1573081389863" duration="9357000" />
+      <workItem from="1573104347834" duration="5761000" />
+      <workItem from="1573110277145" duration="139000" />
+      <workItem from="1573110437098" duration="321000" />
+      <workItem from="1573169001516" duration="341000" />
+      <workItem from="1573195459164" duration="2179000" />
+      <workItem from="1573197665257" duration="322000" />
+      <workItem from="1573199880816" duration="510000" />
+      <workItem from="1573219257270" duration="75000" />
+      <workItem from="1573258264667" duration="9000" />
+      <workItem from="1573506641438" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="Migrated to IntelliJ">
       <created>1568228660485</created>
@@ -350,6 +350,15 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -386,5 +395,83 @@
     <MESSAGE value="Added servlets connected to database" />
     <MESSAGE value="Added xml configuration" />
     <option name="LAST_COMMIT_MESSAGE" value="Added xml configuration" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>BasicWebsite:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BasicWebsite</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate 5.4.5-5.4.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

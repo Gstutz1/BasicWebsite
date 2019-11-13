@@ -16,8 +16,15 @@ public class Section {
     @Column(name = "body")
     private String body;
 
-    public Section()
-    {
+    @ManyToOne(cascade =
+                    {CascadeType.DETACH,
+                    CascadeType.MERGE,
+                    CascadeType.PERSIST,
+                    CascadeType.REFRESH})
+    @JoinColumn(name = "figure_id")
+    private Figure figure;
+
+    public Section() {
         // Need to have a default constructor
     }
 
@@ -25,6 +32,14 @@ public class Section {
     {
         this.header = header;
         this.body = body;
+    }
+
+    public Figure getFigure() {
+        return figure;
+    }
+
+    public void setFigure(Figure figure) {
+        this.figure = figure;
     }
 
     public int getId() {
@@ -57,6 +72,7 @@ public class Section {
                 "id=" + id +
                 ", header='" + header + '\'' +
                 ", body='" + body + '\'' +
+                ", figure=" + figure +
                 '}';
     }
 }
