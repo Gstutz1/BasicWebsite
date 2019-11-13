@@ -8,6 +8,20 @@
   <component name="ChangeListManager">
     <list default="true" id="353176f6-0206-45c1-b91a-98f1a1e1cec8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c730.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c730.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c741.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c741.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c750.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c750.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c761.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c761.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/norse/seg0/c771.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/norse/seg0/c771.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Section.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,35 +72,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="30" />
-    <option name="width" value="1680" />
-    <option name="height" value="950" />
-  </component>
   <component name="ProjectId" id="1RyufyneXC7CozA8rewLrv8LtMn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BasicWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicWebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="derby" />
@@ -285,6 +273,7 @@
       <workItem from="1573258264667" duration="9000" />
       <workItem from="1573506641438" duration="678000" />
       <workItem from="1573668014474" duration="732000" />
+      <workItem from="1573685558115" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="Migrated to IntelliJ">
       <created>1568228660485</created>
@@ -328,11 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1573668132925</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed broken commit">
+      <created>1573685840521</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573685840521</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,44 +336,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info id="Persistence" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -390,12 +345,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -423,7 +372,8 @@
     <MESSAGE value="Added servlets connected to database" />
     <MESSAGE value="Added xml configuration" />
     <MESSAGE value="Added some crud methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some crud methods" />
+    <MESSAGE value="Fixed broken commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed broken commit" />
   </component>
   <component name="masterDetails">
     <states>

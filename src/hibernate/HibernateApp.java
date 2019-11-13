@@ -21,14 +21,15 @@ public class HibernateApp {
         var hibernateApp = new HibernateApp();
 
         try {
-            hibernateApp.createFigure("Test3", "TestingInfo3");
+            //hibernateApp.createFigure("Test3", "TestingInfo3");
             //hibernateApp.updateFigure(2, "TestUpdate", "TestingUpdate");
-            //hibernateApp.deleteFigure(1);
-            hibernateApp.listAllFigures();
+            //hibernateApp.deleteFigure(301);
+            //hibernateApp.listAllFigures(); 201
 
-            //hibernateApp.createSection(1, "TestHeader", "TestBody");
+            //hibernateApp.createSection(201, "TestHeader", "TestBody");
             //hibernateApp.deleteSection(1);
-            //hibernateApp.listAllSections();
+            //hibernateApp.updateSection(101, "Update", "Updating");
+            hibernateApp.listAllSections();
         }
         finally {
             hibernateApp.close();
@@ -44,8 +45,7 @@ public class HibernateApp {
 
         session.beginTransaction();
 
-        var figure = new Figure(name, info);
-        session.save(figure);
+        session.save(new Figure(name, info));
 
         session.getTransaction().commit();
     }
@@ -131,6 +131,24 @@ public class HibernateApp {
         }
         else {
             session.delete(section);
+        }
+
+        session.getTransaction().commit();
+    }
+
+    private void updateSection(int id, String header, String body) {
+        var session = factory.getCurrentSession();
+
+        session.beginTransaction();
+
+        var section = session.get(Section.class, id);
+
+        if (section == null) {
+            System.out.println("Section with id of " + id + " doesn't exist!");
+        }
+        else {
+            section.setHeader(header);
+            section.setBody(body);
         }
 
         session.getTransaction().commit();

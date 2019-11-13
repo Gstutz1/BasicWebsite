@@ -16,6 +16,9 @@ public class Section {
     @Column(name = "body")
     private String body;
 
+    // One figure can have many sections while one section has one figure
+    // Did not include CascadeType.Remove because figures can exist without sections
+    // Uses the default fetching, figures connected to sections must be known
     @ManyToOne(cascade =
                     {CascadeType.DETACH,
                     CascadeType.MERGE,

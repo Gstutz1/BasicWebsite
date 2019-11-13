@@ -18,6 +18,9 @@ public class Figure {
     @Column(name = "info")
     private String info;
 
+    // One figure can have many sections
+    // All cascade types are used, this is because if a figure is deleted all its sections are too
+    // Uses default fetching because not all sections have to be loaded
     @OneToMany(mappedBy = "figure", cascade = CascadeType.ALL)
     private List<Section> sections;
 
